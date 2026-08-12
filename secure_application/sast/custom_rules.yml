@@ -1,0 +1,33 @@
+rules:
+  - id: library-improper-input-validation
+    languages:
+      - python
+    severity: WARNING
+    message: "Improper Input Validation: user input is accepted without validation."
+    pattern: $VAR = input(...)
+
+  - id: library-sql-injection
+    languages:
+      - python
+    severity: ERROR
+    message: "Possible SQL Injection: formatted SQL query uses user-controlled input."
+    patterns:
+      - pattern: $QUERY = f"..."
+      - pattern-inside: |
+          def search_book(...):
+            ...
+
+  - id: library-missing-authentication
+    languages:
+      - python
+    severity: ERROR
+    message: "Missing Authentication: issue_book does not check authentication."
+    patterns:
+      - pattern-inside: |
+          def issue_book(...):
+            ...
+      - pattern-not: |
+          def issue_book(...):
+            if not require_login():
+              return
+            ...
