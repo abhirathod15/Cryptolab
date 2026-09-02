@@ -1,0 +1,38 @@
+theoretic notions of security (in the case of encryption, both these relaxations
+are necessary in order to go beyond the limitations of perfect secrecy discussed
+in the previous chapter):
+1. Security is only guaranteed against efficient adversaries that run for some
+feasible amount of time. This means that given enough time (or suffi-
+cient computational resources) an attacker may be able to violate secu-
+rity. If we can make the resources required to break the scheme larger
+than those available to any realistic attacker, then for all practical pur-
+poses the scheme is unbreakable.
+2. Adversaries can potentially succeed (i.e., security can potentially fail)
+with some very small probability. If we can make this probability suffi-
+ciently small, we need not worry about it.
+To obtain a meaningful theory, we need to precisely define the above relax-
+ations. There are two general approaches for doing so: the concrete approach
+and the asymptotic approach. These are described next.
+3.1.1 The Concrete Approach
+The concrete approach to computational security quantifies the security of a
+cryptographic scheme by explicitly bounding the maximum success probabil-
+ity of any (randomized) adversary running for some specified amount of time
+or, more precisely, investing some specific amount of computational effort.
+Thus, a concrete definition of security takes roughly the following form:
+A scheme is (t, ε)-secure if any adversary running for time at
+most t succeeds in breaking the scheme with probability at most ε.
+(Of course, the above serves only as a general template, and for the above
+statement to make sense we need to define exactly what it means to “break”
+the scheme in question.) As an example, one might have a scheme with the
+guarantee that no adversary running for at most 200 years using the fastest
+available supercomputer can succeed in breaking the scheme with probability
+better than 2−60. Or, it may be more convenient to measure running time in
+terms of CPU cycles, and to construct a scheme such that no adversary using
+at most 280 cycles can break the scheme with probability better than 2−60.
+It is instructive to get a feel for the large values of t and the small values
+of ε that are typical of modern cryptographic schemes.
+Example 3.1
+Modern private-key encryption schemes are generally assumed to give almost
+optimal security in the following sense: when the key has length n—and so
+the key space has size 2n—an adversary running for time t (measured in, say,
+computer cycles) succeeds in breaking the scheme with probability at most
