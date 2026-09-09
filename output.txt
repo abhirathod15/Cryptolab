@@ -1,0 +1,318 @@
+
+======================================
+EVEN GROUP - CIPHERTEXT 2
+======================================
+
+======================================
+VIGENERE CIPHER CRYPTANALYSIS
+======================================
+
+Clean ciphertext length: 758
+
+========== KASISKI ANALYSIS ==========
+
+Repeated patterns:
+AEL -> positions [297, 619]
+AEP -> positions [356, 524]
+AIK -> positions [93, 393]
+AMF -> positions [573, 579]
+BEL -> positions [199, 247]
+DDE -> positions [557, 701]
+DFW -> positions [389, 569]
+DFWT -> positions [389, 569]
+DFWTA -> positions [389, 569]
+EGX -> positions [20, 140]
+ELS -> positions [44, 728]
+FBE -> positions [198, 246]
+FBEL -> positions [198, 246]
+FWT -> positions [390, 570]
+FWTA -> positions [390, 570]
+GOT -> positions [263, 419]
+GOTP -> positions [263, 419]
+GOTPM -> positions [263, 419]
+GPX -> positions [109, 385]
+GWI -> positions [281, 509]
+GWIE -> positions [281, 509]
+GWW -> positions [514, 553]
+HPR -> positions [195, 243]
+HPRF -> positions [195, 243]
+HPRFB -> positions [195, 243]
+HXZ -> positions [333, 717]
+HXZY -> positions [333, 717]
+HZL -> positions [687, 745]
+IEG -> positions [62, 283]
+ILA -> positions [173, 629]
+ILB -> positions [10, 226]
+KHP -> positions [194, 242]
+KHPR -> positions [194, 242]
+KHPRF -> positions [194, 242]
+KIL -> positions [9, 225]
+KILB -> positions [9, 225]
+KMA -> positions [534, 594]
+LAE -> positions [174, 618]
+LBN -> positions [227, 647]
+LBR -> positions [11, 278]
+LFM -> positions [137, 149]
+LVB -> positions [168, 408]
+MAE -> positions [355, 523]
+MAEP -> positions [355, 523]
+MEL -> positions [43, 486]
+MFS -> positions [52, 364]
+MHX -> positions [31, 151]
+MLW -> positions [189, 477, 561]
+MXR -> positions [267, 423]
+MXRT -> positions [267, 423]
+MXRTX -> positions [267, 423]
+NNB -> positions [396, 649]
+NUM -> positions [120, 300]
+NVW -> positions [217, 253, 349, 457]
+OTP -> positions [264, 420]
+OTPM -> positions [264, 420]
+OTPMX -> positions [264, 420]
+PMX -> positions [266, 422]
+PMXR -> positions [266, 422]
+PMXRT -> positions [266, 422]
+PRF -> positions [196, 244]
+PRFB -> positions [196, 244]
+PRFBE -> positions [196, 244]
+RFB -> positions [197, 245]
+RFBE -> positions [197, 245]
+RFBEL -> positions [197, 245]
+RTX -> positions [269, 425]
+RXW -> positions [68, 677]
+SIL -> positions [172, 628]
+SILA -> positions [172, 628]
+SML -> positions [476, 730]
+TAI -> positions [92, 392]
+TAIK -> positions [92, 392]
+THX -> positions [332, 428]
+TPM -> positions [265, 421]
+TPMX -> positions [265, 421]
+TPMXR -> positions [265, 421]
+TXT -> positions [378, 405, 426]
+UAL -> positions [276, 444, 612]
+WHG -> positions [287, 383]
+WIE -> positions [282, 510]
+WNV -> positions [134, 722]
+WTA -> positions [391, 571]
+WWS -> positions [40, 554]
+XRT -> positions [268, 424]
+XRTX -> positions [268, 424]
+XTH -> positions [331, 427]
+XTHX -> positions [331, 427]
+XZY -> positions [334, 718]
+YGW -> positions [433, 508]
+YNV -> positions [252, 456]
+YNVW -> positions [252, 456]
+
+Distances:
+Pattern = KIL   Distance = 216
+Pattern = ILB   Distance = 216
+Pattern = LBR   Distance = 267
+Pattern = EGX   Distance = 120
+Pattern = MHX   Distance = 120
+Pattern = WWS   Distance = 514
+Pattern = MEL   Distance = 443
+Pattern = ELS   Distance = 684
+Pattern = MFS   Distance = 312
+Pattern = IEG   Distance = 221
+Pattern = RXW   Distance = 609
+Pattern = TAI   Distance = 300
+Pattern = AIK   Distance = 300
+Pattern = GPX   Distance = 276
+Pattern = NUM   Distance = 180
+Pattern = WNV   Distance = 588
+Pattern = LFM   Distance = 12
+Pattern = LVB   Distance = 240
+Pattern = SIL   Distance = 456
+Pattern = ILA   Distance = 456
+Pattern = LAE   Distance = 444
+Pattern = MLW   Distance = 288
+Pattern = MLW   Distance = 84
+Pattern = KHP   Distance = 48
+Pattern = HPR   Distance = 48
+Pattern = PRF   Distance = 48
+Pattern = RFB   Distance = 48
+Pattern = FBE   Distance = 48
+Pattern = BEL   Distance = 48
+Pattern = NVW   Distance = 36
+Pattern = NVW   Distance = 96
+Pattern = NVW   Distance = 108
+Pattern = LBN   Distance = 420
+Pattern = YNV   Distance = 204
+Pattern = GOT   Distance = 156
+Pattern = OTP   Distance = 156
+Pattern = TPM   Distance = 156
+Pattern = PMX   Distance = 156
+Pattern = MXR   Distance = 156
+Pattern = XRT   Distance = 156
+Pattern = RTX   Distance = 156
+Pattern = UAL   Distance = 168
+Pattern = UAL   Distance = 168
+Pattern = GWI   Distance = 228
+Pattern = WIE   Distance = 228
+Pattern = WHG   Distance = 96
+Pattern = AEL   Distance = 322
+Pattern = XTH   Distance = 96
+Pattern = THX   Distance = 96
+Pattern = HXZ   Distance = 384
+Pattern = XZY   Distance = 384
+Pattern = MAE   Distance = 168
+Pattern = AEP   Distance = 168
+Pattern = TXT   Distance = 27
+Pattern = TXT   Distance = 21
+Pattern = DFW   Distance = 180
+Pattern = FWT   Distance = 180
+Pattern = WTA   Distance = 180
+Pattern = NNB   Distance = 253
+Pattern = YGW   Distance = 75
+Pattern = SML   Distance = 254
+Pattern = GWW   Distance = 39
+Pattern = KMA   Distance = 60
+Pattern = DDE   Distance = 144
+Pattern = AMF   Distance = 6
+Pattern = HZL   Distance = 58
+Pattern = KILB  Distance = 216
+Pattern = TAIK  Distance = 300
+Pattern = SILA  Distance = 456
+Pattern = KHPR  Distance = 48
+Pattern = HPRF  Distance = 48
+Pattern = PRFB  Distance = 48
+Pattern = RFBE  Distance = 48
+Pattern = FBEL  Distance = 48
+Pattern = YNVW  Distance = 204
+Pattern = GOTP  Distance = 156
+Pattern = OTPM  Distance = 156
+Pattern = TPMX  Distance = 156
+Pattern = PMXR  Distance = 156
+Pattern = MXRT  Distance = 156
+Pattern = XRTX  Distance = 156
+Pattern = GWIE  Distance = 228
+Pattern = XTHX  Distance = 96
+Pattern = HXZY  Distance = 384
+Pattern = MAEP  Distance = 168
+Pattern = DFWT  Distance = 180
+Pattern = FWTA  Distance = 180
+Pattern = KHPRF Distance = 48
+Pattern = HPRFB Distance = 48
+Pattern = PRFBE Distance = 48
+Pattern = RFBEL Distance = 48
+Pattern = GOTPM Distance = 156
+Pattern = OTPMX Distance = 156
+Pattern = TPMXR Distance = 156
+Pattern = PMXRT Distance = 156
+Pattern = MXRTX Distance = 156
+Pattern = DFWTA Distance = 180
+
+Factor frequency:
+Key length  3 -> 90 occurrences
+Key length  2 -> 88 occurrences
+Key length  6 -> 84 occurrences
+Key length  4 -> 83 occurrences
+Key length 12 -> 83 occurrences
+Key length  8 -> 40 occurrences
+Key length 16 -> 26 occurrences
+Key length 13 -> 21 occurrences
+Key length  9 -> 16 occurrences
+Key length  5 -> 16 occurrences
+Key length 15 -> 16 occurrences
+Key length 18 -> 15 occurrences
+Key length 10 -> 15 occurrences
+Key length 20 -> 15 occurrences
+Key length  7 -> 11 occurrences
+Key length 14 -> 9 occurrences
+Key length 19 -> 7 occurrences
+Key length 17 -> 3 occurrences
+Key length 11 -> 1 occurrences
+
+Kasiski candidate key lengths: [3, 2, 6, 4, 12, 8, 16, 13, 9, 5]
+
+========== IC ANALYSIS ==========
+Key length  3 -> Average IC = 0.0495
+Key length  2 -> Average IC = 0.0457
+Key length  6 -> Average IC = 0.0589
+Key length  4 -> Average IC = 0.0503
+Key length 12 -> Average IC = 0.0717
+Key length  8 -> Average IC = 0.0500
+Key length 16 -> Average IC = 0.0509
+Key length 13 -> Average IC = 0.0449
+Key length  9 -> Average IC = 0.0485
+Key length  5 -> Average IC = 0.0433
+
+Estimated key length: 12
+
+Ciphertext divided into 12 groups.
+
+========== FREQUENCY TABLES ==========
+
+Group 1 (length = 64):
+A:1 B:4 C:1 D:0 E:0 F:3 G:2 H:3 I:6 J:1 K:0 L:4 M:2 N:4 O:3 P:1 Q:1 R:0 S:1 T:0 U:6 V:0 W:4 X:3 Y:13 Z:1
+IC = 0.0724
+
+Group 2 (length = 64):
+A:8 B:2 C:3 D:0 E:4 F:2 G:6 H:1 I:0 J:0 K:0 L:0 M:0 N:10 O:1 P:1 Q:1 R:8 S:2 T:3 U:4 V:3 W:0 X:0 Y:3 Z:2
+IC = 0.0714
+
+Group 3 (length = 63):
+A:3 B:8 C:1 D:1 E:1 F:0 G:2 H:0 I:4 J:0 K:6 L:5 M:6 N:1 O:1 P:4 Q:2 R:0 S:0 T:1 U:1 V:5 W:5 X:0 Y:0 Z:6
+IC = 0.0614
+
+Group 4 (length = 63):
+A:2 B:6 C:0 D:0 E:2 F:0 G:3 H:8 I:0 J:0 K:4 L:2 M:11 N:2 O:1 P:0 Q:0 R:2 S:0 T:1 U:0 V:0 W:8 X:9 Y:2 Z:0
+IC = 0.0906
+
+Group 5 (length = 63):
+A:1 B:0 C:0 D:0 E:5 F:0 G:1 H:2 I:3 J:1 K:0 L:2 M:6 N:0 O:0 P:4 Q:4 R:4 S:9 T:2 U:0 V:5 W:4 X:7 Y:2 Z:1
+IC = 0.0630
+
+Group 6 (length = 63):
+A:0 B:1 C:0 D:7 E:2 F:5 G:2 H:6 I:5 J:1 K:2 L:4 M:0 N:0 O:2 P:2 Q:4 R:9 S:0 T:0 U:5 V:1 W:4 X:1 Y:0 Z:0
+IC = 0.0640
+
+Group 7 (length = 63):
+A:4 B:1 C:0 D:3 E:1 F:8 G:0 H:1 I:0 J:4 K:5 L:7 M:1 N:1 O:0 P:0 Q:1 R:0 S:5 T:3 U:3 V:2 W:9 X:2 Y:1 Z:1
+IC = 0.0655
+
+Group 8 (length = 63):
+A:4 B:6 C:0 D:0 E:6 F:0 G:0 H:4 I:3 J:0 K:2 L:3 M:8 N:2 O:1 P:0 Q:0 R:1 S:0 T:4 U:0 V:1 W:3 X:12 Y:1 Z:2
+IC = 0.0789
+
+Group 9 (length = 63):
+A:6 B:2 C:3 D:4 E:11 F:2 G:1 H:4 I:2 J:0 K:0 L:4 M:0 N:4 O:2 P:1 Q:0 R:2 S:3 T:8 U:2 V:0 W:1 X:0 Y:1 Z:0
+IC = 0.0686
+
+Group 10 (length = 63):
+A:6 B:1 C:0 D:0 E:4 F:0 G:5 H:5 I:2 J:0 K:4 L:7 M:6 N:1 O:2 P:2 Q:0 R:0 S:0 T:5 U:1 V:1 W:1 X:5 Y:2 Z:3
+IC = 0.0563
+
+Group 11 (length = 63):
+A:0 B:0 C:0 D:0 E:5 F:0 G:1 H:5 I:12 J:0 K:0 L:4 M:5 N:0 O:0 P:4 Q:0 R:4 S:8 T:1 U:0 V:2 W:2 X:8 Y:2 Z:0
+IC = 0.0886
+
+Group 12 (length = 63):
+A:3 B:0 C:0 D:2 E:0 F:8 G:7 H:4 I:0 J:2 K:5 L:5 M:1 N:0 O:3 P:0 Q:0 R:0 S:3 T:1 U:1 V:3 W:12 X:1 Y:0 Z:2
+IC = 0.0799
+
+========== SHIFT ANALYSIS ==========
+Group  1: Shift = 20, Key letter = U, Chi-square = 14.24
+Group  2: Shift = 13, Key letter = N, Chi-square = 22.13
+Group  3: Shift =  8, Key letter = I, Chi-square = 22.14
+Group  4: Shift = 19, Key letter = T, Chi-square = 33.78
+Group  5: Shift =  4, Key letter = E, Chi-square = 19.96
+Group  6: Shift =  3, Key letter = D, Chi-square = 30.62
+Group  7: Shift = 18, Key letter = S, Chi-square = 28.58
+Group  8: Shift = 19, Key letter = T, Chi-square = 22.64
+Group  9: Shift =  0, Key letter = A, Chi-square = 13.19
+Group 10: Shift = 19, Key letter = T, Chi-square = 20.11
+Group 11: Shift =  4, Key letter = E, Chi-square = 19.56
+Group 12: Shift = 18, Key letter = S, Chi-square = 24.29
+
+========== RECOVERED KEY ==========
+Key: UNITEDSTATES
+
+========== RECOVERED PLAINTEXT ==========
+WETHEREFORETHEREPRESENTATIVESOFTHEUNITEDSTATESOFAMERICAINGENERALCONGRESSASSEMBLEDAPPEALINGTOTHESUPREMEJUDGEOFTHEWORLDFORTHERECTITUDEOFOURINTENTIONSDOINTHENAMEANDBYAUTHORITYOFTHEGOODPEOPLEOFTHESECOLONIESSOLEMNLYPUBLISHANDDECLARETHATTHESEUNITEDCOLONIESAREANDOFRIGHTOUGHTTOBEFREEANDINDEPENDENTSTATESTHATTHEYAREABSOLVEDFROMALLALLEGIANCETOTHEBRITISHCROWNANDTHATALLPOLITICALCONNECTIONBETWEENTHEMANDTHESTATEOFGREATBRITAINISANDOUGHTTOBETOTALLYDISSOLVEDANDTHATASFREEANDINDEPENDENTSTATESTHEYHAVEFULLPOWERTOLEVYWARCONCLUDEPEACECONTRACTALLIANCESESTABLISHCOMMERCEANDTODOALLOTHERACTSANDTHINGSWHICHINDEPENDENTSTATESMAYOFRIGHTDOANDFORTHESUPPORTOFTHISDECLARATIONWITHAFIRMRELIANCEONTHEPROTECTIONOFDIVINEPROVIDENCEWEMUTUALLYPLEDGETOEACHOTHEROURLIVESOURFORTUNESANDOURSACREDHONOR
+
+========== VERIFICATION ==========
+Re-encrypted ciphertext matches original.
+Verification SUCCESSFUL!
